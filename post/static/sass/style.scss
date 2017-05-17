@@ -1,0 +1,21 @@
+@import "base";
+@import "variables";
+
+body {
+    .container {
+        background-color: $bgc;
+    }
+    h1 {
+        color: $color;
+    }
+    ul {
+        padding: 0;
+        li {
+            border: 2px solid black;
+            list-style-type: none;
+            margin-bottom: 2em;
+            padding: 1em;
+            width: 40%;
+        }
+    }
+}
